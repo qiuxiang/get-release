@@ -1,6 +1,11 @@
 name: 'Get the upload URL for a release'
 description: 'Get the upload URL for a release for a tag in your repository'
 author: 'GitHub'
+inputs:
+  token:
+    description: 'The Token of github'
+  tag:
+    description: 'The tag of release'
 outputs:
   id:
     description: 'The ID of the release'
